@@ -28,16 +28,11 @@ nav a:hover{
 color: rgb(113, 209, 216);
     text-decoration: underline;
 }
-main{
-    text-align: center;
-    background-color: rgb(126, 131, 216);
-    color: black;
-}
-footer {
-  text-align: center;
-  background-color: rgb(128, 109, 170);
-}
-footer.dos {
-  text-align: center;
-  background-color: rgb(97, 76, 142);
-}
+
+footer p, footer small {
+    margin: 0;
+  }
+  
+  .navbar-brand img {
+    border-radius: 50%;
+  }
