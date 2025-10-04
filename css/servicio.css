@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 body{
-    margin: 0;
-    padding: 0;
+background-color: rgb(155, 162, 221);
+}
+header{
+        background-color: rgb(105, 115, 189);
+        display: flex;
+        justify-content: space-evenly;
+    text-align: center;
+    padding: 5px 20px;
 }
 .logo{
     display: flex;
     flex-direction: row;
     border-radius: 45px;
     width: 100px;
-
-}
-header{
-        background-color: rgb(105, 115, 189);
-    text-align: center;
 }
 nav li{
     display: inline;
@@ -34,60 +35,48 @@ main{
 .card {
   margin: 20px;
   width: 300px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   box-shadow: 0px 5px 10px;
   font-family: "Josefin Sans", sans-serif;
   text-align: center;
-}
-.cards {
-  margin: 20px;
-  width: 300px;
-  border-radius: 10px;
-  overflow: hidden;
-  box-shadow: 0px 5px 10px;
-  font-family: "Josefin Sans", sans-serif;
-  text-align: center;
+  text-overflow: ellipsis;
 }
 .card img {
-  width: 100%;
-}
-.cards img {
   width: 100%;
 }
 .card-content {
   padding: 5px;
 }
-.cards-content {
-  padding: 5px;
-}
 .card h1 {
   text-align: center;
-  color: rgb(70, 166, 181);
-  font-size: 25px;
-}
-.cards h1 {
-  text-align: center;
-  color: rgb(70, 166, 181);
+  color: rgb(4, 78, 90);
   font-size: 25px;
 }
 .tarjeta {
   display: flex;
   justify-content: center;
 }
+.Tarjetatwo{
+  display: flex;
+  justify-content: center;
+}
 .card:hover {
-  background-color: rgb(25, 112, 133);
+  background-color: rgb(115, 188, 206);
   transform: scale(1.05);
 }
-.cards:hover {
-  background-color: rgb(25, 112, 133);
-  transform: scale(1.05);
+footer{
+  font-size: 14px;
+    text-align: center;
+  background-color: rgb(132, 108, 185);
 }
-footer {
-  text-align: center;
-  background-color: rgb(128, 109, 170);
-}
-footer.dos {
+footer.two {
   text-align: center;
   background-color: rgb(97, 76, 142);
+}
+.ima{
+  width: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
 }

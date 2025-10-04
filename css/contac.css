@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
 body{
-    margin: 0;
-    padding: 0;
+background-color: rgb(170, 176, 225);
+}
+header{
+        background-color: rgb(105, 115, 189);
+        display: flex;
+        justify-content: space-evenly;
+    text-align: center;
+    padding: 5px 20px;
 }
 .logo{
     display: flex;
     flex-direction: row;
     border-radius: 45px;
     width: 100px;
-
-}
-header{
-        background-color: rgb(105, 115, 189);
-    text-align: center;
 }
 nav li{
     display: inline;
@@ -23,19 +24,49 @@ nav a {
     text-decoration: none;
     color: black;
 }
+.infos{
+    background-color: #9da0e4;
+}
+section.ubi{
+    background-color: #9da0e4;
+
+}
 nav a:hover{
-color: rgb(113, 209, 216);
+color: rgb(127, 212, 218);
     text-decoration: underline;
 }
-main{
-    background-color: aliceblue;
-    color: black;
+form input {
+  border-radius: 20px;
+  padding: 10px;
 }
 footer {
   text-align: center;
-  background-color: rgb(128, 109, 170);
+  background-color: rgb(170, 139, 236);
 }
 footer.dos {
   text-align: center;
   background-color: rgb(97, 76, 142);
+}
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  form {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  input {
+    font-size: 0.9rem;
+  }
 }
