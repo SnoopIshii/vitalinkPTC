@@ -7,10 +7,11 @@ body{
     display: flex;
     flex-direction: row;
     border-radius: 45px;
-    width: 150px;
+    padding-left: 25px;
+    width: 120px;
 
 }
-header{ background-color: rgb(105, 115, 189);
+header{ background-color: rgb(107, 127, 188);
     text-align: center;
 
 }
@@ -61,11 +62,37 @@ color: rgb(14, 53, 56);
   background-color: rgb(138, 200, 216);
   transform: scale(1.05);
 }
-footer {
-  text-align: center;
-  background-color: rgb(128, 109, 170);
+.color{ text-align: center;
+    background-color: rgb(178, 157, 234);
 }
-footer.dos {
-  text-align: center;
-  background-color: rgb(97, 76, 142);
+.colores{ text-align: center;
+    background-color: rgb(131, 121, 201);
+}
+
+.colore{
+ background-color: #b5b0f8;
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  h3 {
+    font-size: 1.2rem;
+  }
+  form {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  input {
+    font-size: 0.9rem;
+  }
 }
