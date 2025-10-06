@@ -1,7 +1,22 @@
+<<<<<<< HEAD
+=======
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+body{
+ background-color: #9da0e4;
+}
+header{
+        background-color: rgb(105, 115, 189);
+        display: flex;
+        justify-content: space-evenly;
+    text-align: center;
+    padding: 5px 20px;
+}
+>>>>>>> 839b2abd68bdbd0eff661043b17224f739dd4c69
 .logo{
     display: flex;
     flex-direction: row;
     border-radius: 45px;
+<<<<<<< HEAD
     padding-left: 25px;
     width: 120px;
 
@@ -9,6 +24,9 @@
 header{ background-color: rgb(107, 127, 188);
     text-align: center;
 
+=======
+    width: 100px;
+>>>>>>> 839b2abd68bdbd0eff661043b17224f739dd4c69
 }
 nav li{
     display: inline;
@@ -24,6 +42,7 @@ nav a:hover{
 color: rgb(14, 53, 56);
     text-decoration: underline;
 }
+<<<<<<< HEAD
 body {
   background-color: #b5b0f8;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -102,4 +121,69 @@ body {
     padding: 0 15px;
     font-size: 0.95rem;
   }
+=======
+.Mision{
+    padding: 40px;
+}
+.Mision h2{
+    text-align: center;
+    font-size: 30px;
+margin-bottom: 20px;
+}
+.Vision{
+padding: 40px;
+}
+.Vision h2{
+     text-align: center;
+    font-size: 30px;
+margin-bottom: 20px;
+}
+footer {
+  text-align: center;
+  background-color: rgb(128, 109, 170);
+}
+footer.dos {
+  text-align: center;
+  background-color: rgb(97, 76, 142);
+}
+.container{
+ background-color: #9da0e4;
+}
+.container{
+background-color: #9da0e4;
+}
+@keyframes moveRight {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(100px); }
+  100% { transform: translateX(0); }
+}
+
+section {
+  padding: 60px 20px;
+}
+
+footer p {
+  margin: 5px 0;
+}
+
+@media (max-width: 768px) {
+  .animated-img {
+    width: 150px;
+  }
+  section {
+    padding: 40px 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .animated-img {
+    width: 120px;
+  }
+  h2, h3 {
+    font-size: 1.4rem;
+  }
+  p {
+    font-size: 0.9rem;
+  }
+>>>>>>> 839b2abd68bdbd0eff661043b17224f739dd4c69
 }
